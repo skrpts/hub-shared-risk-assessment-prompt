@@ -1,9 +1,9 @@
 # --- Identity ---
-id: "9a4cb96e-ff75-4527-b389-3b77e6a3466d"
+id: "d9d95537-6a45-473d-919d-05bd61eb4682"
 name: "risk-assessment-prompt"
 display_name: "Risk Assessment Prompt"
 description: "Evaluate risks across technical, market, operational, and strategic dimensions with mitigation plans"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
