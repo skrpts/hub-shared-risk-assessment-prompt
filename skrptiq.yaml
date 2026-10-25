@@ -3,7 +3,7 @@ id: "d9d95537-6a45-473d-919d-05bd61eb4682"
 name: "risk-assessment-prompt"
 display_name: "Risk Assessment Prompt"
 description: "Evaluate risks across technical, market, operational, and strategic dimensions with mitigation plans"
-version: "1.0.2"
+version: "1.0.3"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -25,3 +25,17 @@ contents:
   documents: 0
   assets: 0
   total: 1
+
+security:
+  status: "pass"
+  scanned_at: "2026-10-25T16:49:31.743Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: []
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/risk-assessment-prompt/security"

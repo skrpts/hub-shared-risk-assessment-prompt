@@ -4,6 +4,11 @@ id: risk-assessment-prompt
 title: Risk Assessment Prompt
 description: "Evaluate risks across technical, market, operational, and strategic dimensions with mitigation plans"
 tags: [Production, Planning, Risk]
+context_params:
+  source:
+    label: "Input"
+    description: "The input supplied by the upstream step."
+    required: true
 metadata:
   estimated_duration: "4 minutes"
   avg_tokens: 3000
@@ -46,7 +51,7 @@ You are a product leader conducting a structured risk assessment for a product i
 
 Use the outputs from previous pipeline stages:
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Output Format
 
